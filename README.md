@@ -4,6 +4,8 @@ A python3 tkinter ttk based graphical user interface for CoolProp
 
 Any help on development is welcome
 
+Read howto.txt to set up an environment for the GUI on windows.
+
 The GUI requires CoolProp >5, matplotlib, numpy, scipy and Pillow to work
 see requirements.txt taken from my Python 3.4 64 bit Windows install
 

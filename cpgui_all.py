@@ -346,7 +346,7 @@ def TO_SI(Quantity,Value):
     if Quantity in cpgui_config['units'] :
         localunit=gui_unit[Quantity]
         if localunit in tosi.keys():
-            print('converting ',Value,GUI_UNIT(Quantity),' to ', tosi[localunit](Value) ,SI_UNIT(Quantity))
+            #print('converting ',Value,GUI_UNIT(Quantity),' to ', tosi[localunit](Value) ,SI_UNIT(Quantity))
             return tosi[localunit](Value)
         else:
             print('Error in tosi : No conversion for unit ',localunit,' defined')
@@ -357,7 +357,7 @@ def SI_TO(Quantity,Value):
     if Quantity in cpgui_config['units'] :
         localunit=gui_unit[Quantity]
         if localunit in sito.keys():
-            print('converting ',Value,SI_UNIT(Quantity),' to ', sito[localunit](Value) ,localunit)
+            #print('converting ',Value,SI_UNIT(Quantity),' to ', sito[localunit](Value) ,localunit)
             return sito[localunit](Value)
         else:
             print('Error in sito : No conversion for unit ',localunit,' defined')
